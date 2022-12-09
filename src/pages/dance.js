@@ -1,29 +1,5 @@
 import React from 'react';
-import PropTypes from "prop-types";
-
-const YoutubeEmbed = ({ embedId }) => (
-  <div className="video-responsive"
-  style={{
-    overflow: 'hidden',
-    paddingBottom: '56.25%',
-    position: 'relative',
-    height: 0,
-  }}>
-    <iframe
-      width="853"
-      height="480"
-      src={`https://www.youtube.com/embed/${embedId}`}
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-      title="Dance video"
-    />
-  </div>
-);
-
-YoutubeEmbed.propTypes = {
-  embedId: PropTypes.string.isRequired
-};
+import YoutubeEmbed from './styles';
 
 const Dance = () => {
 return (
@@ -32,17 +8,21 @@ return (
 		display: 'flex',
         flexDirection: 'column',
 		justifyContent: 'Left',
-		alignItems: 'Center',
-        alignText: 'Left',
+		alignItems: 'Left',
 		height: '100vh',
         fontFamily: 'Andale Mono',
         margin: '5rem'
 	}}
 	>
 	<h1>Dance</h1>
-    <div>
-    <YoutubeEmbed embedId="19yFbcGwDhg"/>
-    <YoutubeEmbed embedId="4BJr6HcxD9s"/>
+    <div style={{display: 'flex', flexDirection:'column', alignItems: 'center',}}>
+        <p> I have trained in South Asian classical dance for several years, and am a proud member of Brown's premier South Asian classical dance team, Abhinaya. Linked below are some videos from the team's performances. Visit our YouTube channel to see more videos! </p>
+        <br/>
+        <YoutubeEmbed embedId="19yFbcGwDhg"/>
+        <br/>
+        <YoutubeEmbed embedId="4BJr6HcxD9s"/>
+        <br/>
+        <p style={{fontSize: '8px',}}> I have intentionally avoided linking more vidoes to preserve anonymity for this submission. </p>
     </div>
 	</div>
 );

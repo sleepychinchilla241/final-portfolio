@@ -1,0 +1,22 @@
+.imageGrid {
+    display: grid;
+    grid-template-columns: 30rem 30rem 30rem;
+    grid-gap: 1rem;
+    justify-content: center;
+    grid-auto-rows: max-content;
+    margin-bottom: 2rem;
+}
+
+.cuteImage {
+    width: 20rem;
+    padding: 1rem;    
+}
+
+.linkGrid {
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    grid-gap: 1rem;
+    justify-content: center;
+    grid-auto-rows: max-content;
+    margin-bottom: 2rem;
+}
