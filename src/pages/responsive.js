@@ -1,4 +1,5 @@
 import React from 'react';
+import './responsivestyle.css';
 
 const Responsive=() => {
     return (
@@ -8,16 +9,16 @@ const Responsive=() => {
                     Responsive Redesign
                 </h1>
             </div>
+            <p>
+                This project focused on redesigning a page of website that had 
+                significant shortcomings when it came to usability, 
+                learnability, memorability, and accessibility. <br/> 
+                I chose to redesign the menu page of Bagel Gourmet, a popular 
+                chain of bagel restaurants in Providence, RI. While this page 
+                does convey all the necessary information, its layout and visual 
+                elements could be greatly improved. 
+            </p>
             <div className="imageSection">
-                <p>
-                    This project focused on redesigning a page of website that had 
-                    significant shortcomings when it came to usability, 
-                    learnability, memorability, and accessibility. <br/> 
-                    I chose to redesign the menu page of Bagel Gourmet, a popular 
-                    chain of bagel restaurants in Providence, RI. While this page 
-                    does convey all the necessary information, its layout and visual 
-                    elements could be greatly improved. 
-                </p>
                 <p>
                     The image below shows the top of the menu page. Interestingly 
                     enough, though bagel gourmet specializes in selling bagels, the 
@@ -28,7 +29,7 @@ const Responsive=() => {
                     <img className="gridimg" src="./assets/screenshot1.jpg" alt="An annotated screenshot of the website, highlighting some of the usability issues"/>
                     <div className="mainListContainer">
                         <ul>
-                            <li> 
+                        <li> 
                                 The logo used here is not the same as the logo seen at 
                                 Bagel Gourmet stores in Providence. Further, it is 
                                 difficult to read due to poor text contrast. 
@@ -70,9 +71,9 @@ const Responsive=() => {
                 </p>
                 <div className="gridcontainer2">
                     <img className="gridimg" src="./assets/screenshot2.jpg" alt="An annotated screenshot of the website, highlighting some of the usability issues"/>
-                    <div className="mainListContainer">
+                    <div className='mainListContainer'>
                         <ul>
-                            <li>
+                        <li>
                                 In addition to the issues highlighted above, some other 
                                 new issues become apparent in this section. The layout 
                                 suddenly changes to a two-column layout instead of the 
@@ -111,7 +112,7 @@ const Responsive=() => {
                         </ul>
                     </div>
                 </div>
-                <div className="gridcontainer2">
+                <div className='gridcontainer2'>
                     <p>
                         I also used the WebAim WAVE tool to evaluate the accessibility of 
                         the original webpage. Several issues were identified by the tool, 
@@ -124,7 +125,6 @@ const Responsive=() => {
                         because they were attached to images that did not have captions
                         associated with them.
                     </p>
-                    <img src="./assets/original_accessibility.png" width="50%" alt="The WebAim WAVE acessibility report for the original webpage"/>
                     <p>
                         I tried to address the issues raised in the original page's 
                         accessibility report by improving the contrast in text, avoiding
@@ -133,10 +133,11 @@ const Responsive=() => {
                         my redesign. The redesigned page's accessibility report is summarized
                         in the image below.
                     </p>
+                    <img src="./assets/original_accessibility.png" width="50%" alt="The WebAim WAVE acessibility report for the original webpage"/>
                     <img src="./assets/redesigned_accessibility.png" width="50%" alt="The WebAim WAVE accessibility report for the redesigned webpage"/>
                 </div>
             </div>
-            <div className="imageSection">
+            <div className='imageSection'>
                 <h2>
                     Visual Redesign - Lo-fi Prototype
                 </h2>
@@ -145,21 +146,17 @@ const Responsive=() => {
                     constructed a low-fidelity prototype of a redesigned website.
                     I constructed prototypes of the website as it would appear
                     on a laptop/desktop, a tablet, and on a phone using Balsamiq.
-                    <br/> <br/>
-                    Include the three lo-fi protypes constructed for the website and
-                    a few sentences on the main vision for the improved layout. <br/>
-                    Annotate wireframes to point out improvements in design. 
                 </p>
                 <p>
-                    The image below shows the low-fidelity wireframe for laptops, 
+                    The images below show the low-fidelity wireframe for laptops, 
                     with annotations pointing out the problems that the redesigned
                     website would address. 
                 </p>
-                <div className="gridcontainer2">
+                <div className='gridcontainer2'>
                     <img className="gridimg" src="./assets/annotated_lofi.jpg" alt="An annotated low-fidelity wireframe of the laptop website"/>
-                    <div className="mainListContainer">
+                    <div className='mainListContainer'>
                         <ul>
-                            <li>
+                        <li>
                                 The most significant change invovled breaking up 
                                 the menu into sections that could be accessed using a 
                                 tab bar. This makes it somewhat easier for the user to 
@@ -207,7 +204,7 @@ const Responsive=() => {
                     </div>
                 </div>
                 <p>
-                    Enclosed below are all the wireframes for the laptop website.
+                    Enclosed below are additional wireframes for the laptop website.
                 </p>
                 <div className="gridcontainer4">
                     <img className="gridimg" src="./assets/Laptop1.png" alt="Laptop wireframe 1"/>
@@ -216,7 +213,7 @@ const Responsive=() => {
                     <img className="gridimg" src="./assets/Laptop4.png" alt="Laptop wireframe 4"/>
                 </div>
                 <p>
-                    Enclosed below are the wireframes for the tablet and phone 
+                    Enclosed below are wireframes for the tablet and phone 
                     websites respectively.
                 </p>
                 <div className="gridcontainer2">
@@ -224,22 +221,22 @@ const Responsive=() => {
                     <img className="screenshot" src="./assets/Phone.png" alt="Phone wireframe"/>
                 </div>
             </div>
-            <div className="imageSection">
+            <div className='imageSection'>
                 <h2>
                     Visual Redesign - Visual Style Guide
                 </h2>
-                <div className="gridcontainer2">
+                <div className='gridcontainer2'>
                     <img className="miniscreenshot" src="./assets/Visual Design Style Guide.png" alt="Visual design style guide"/>
-                <p>
+                    <p>
                     My website had relatively few interactive elements, so my visual
                     style guide was fairly simple. I created a colour scheme based 
                     on the colours I typically saw in Bagel Gourmet restaurants, and
                     designed interative components and the rest of the website based
                     on that. 
-                </p>
+                    </p>
                 </div>
             </div>
-            <div className="imageSection"/>
+            <div className='imageSection'>
                 <h2>
                     Visual Redesign - Hi-fi Prototype.
                 </h2>
@@ -254,11 +251,11 @@ const Responsive=() => {
                     below, highlighting improvements made in addition to those made
                     by the low-fidelity wireframe.
                 </p>
-                <div className="gridcontainer2">
+                <div className='gridcontainer2'>
                     <img className="gridimg" src="./assets/annotated_hifi.jpg"/>
-                    <div className="mainListContainer">
+                    <div className='mainListContainer'>
                         <ul>
-                            <li>
+                        <li>
                                 The menu was broken into sections or tabs, with 
                                 different colours used to distinguish the active tab 
                                 from all the other tabs. 
@@ -313,7 +310,7 @@ const Responsive=() => {
                     <img className="gridimg" src="./assets/Phone_Prototype.png" alt="High-fidelity phone prototype"/>
                 </div>
             </div>
-            <div className="imageSection">	
+            <div className='imageSection'>
                 <h2>
                     Responsive Redesign
                 </h2>
@@ -327,3 +324,5 @@ const Responsive=() => {
         </div>
     );
 };
+
+export default Responsive;

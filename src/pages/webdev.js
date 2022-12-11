@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import 'webdevstyles.css';
-import 'webdevapp.js';
+import './webdevstyles.css';
+import './webdevapp.js';
 
 const Webdev = () => {
     return (

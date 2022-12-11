@@ -16,9 +16,9 @@ return (
 	}}
 	>
 	<h1>Portfolio Website</h1>
-    <p>Hi there! I'm a senior at Brown University studying Computer Science and Economics. I also like dance, art, reading and the colour blue! Click on the links in the navbar to learn more!</p> 
+    <p>Hi there! I'm a senior at Brown University. I like to dance, make art, and read! Click on the links in the navbar to learn more about my interests and UIUX experience!</p> 
     <br/>
-    <p>Bad day? Check out these videos and pictures below!</p>
+    <p>Bad day? Check out these videos and pictures below! (PS: I couldn't embed videos from this channel, but I highly recommend Lucas the Spider on YouTube!)</p>
     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center',}}>
         <YoutubeEmbed embedId="ZI-52YXkfs0"/>
         <br/>
@@ -27,7 +27,7 @@ return (
         <YoutubeEmbed embedId="VJ3oZxEmSAI"/>
     </div>
     <br/>
-    <div style={{display: 'flex', justifyContent:'center',}}>
+    <div style={{display: 'flex', flexDirection:"column", alignItems:'center',}}>
         <imageGrid>
             <img className='cuteImage' src={process.env.PUBLIC_URL + '/dog1.jpeg'} alt='Dog'/>
             <img className='cuteImage' src={process.env.PUBLIC_URL + '/cat1.jpeg'} alt='Cat'/>
@@ -41,9 +41,9 @@ return (
             <img className='cuteImage' src={process.env.PUBLIC_URL + '/dog4.jpeg'} alt='Dog'/>
             <img className='cuteImage' src={process.env.PUBLIC_URL + '/cat3.webp'} alt='Cat'/>
         </imageGrid>
+        <br/>
+        <p style={{fontSize: '12px',}}> Images courtesy of Google Images. All embedded videos are from public YouTube channels. </p>
     </div>
-    <br/>
-    <p style={{fontSize: '8px',}}> Images courtesy of Google images </p>
 	</div>
 );
 };

@@ -1,0 +1,129 @@
+body {
+	background-color: whitesmoke;
+	font-family: "Andale Mono", "Courier", monospace;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.pageTitle {
+	margin: 2% 2% 1%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.textSection {
+	margin: 2% 2% 0%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: justify;
+}
+
+.imageSection {
+	margin: 2% 2% 0%;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer {
+	margin: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+p {
+	margin: 1.5%;
+	font-size: 15px;
+	text-align: left;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+.mainListContainer {
+	margin: 0% 1.5% 1.5% 1.5%;
+	font-size: 15px;
+}
+
+.subListContainer {
+	font-size: 13px;
+}
+
+#textSection>.p{
+	margin: 0%
+}
+
+h3 {
+	margin: 0% 1.5% 1.5% 1.5%;
+	align-self: flex-start;
+}
+
+.userInterviewDescr {
+	margin: 0% 1.5% 1.5% 5%;
+	font-size: 15px;
+	text-align: left;
+}
+
+.gridcontainer4 {
+	display: grid;
+	gap: 3%;
+	margin: 0% 1.5% 1.5% 1.5%;
+	grid-template-columns: auto auto auto auto;
+	align-items: center;
+}
+
+.gridcontainer3 {
+	display: grid;
+	gap: 3%;
+	margin: 0% 1.5% 1.5% 1.5%;
+	grid-template-columns: auto auto auto;
+	align-items: center;
+}
+
+.gridcontainer2 {
+	display: grid;
+	gap: 3%;
+	margin: 0% 1.5% 1.5% 1.5%;
+	grid-template-columns: auto auto;
+	align-items: center;
+}
+
+.screenshot {
+	margin: auto;
+	width: 50%;
+}
+
+.miniscreenshot {
+	margin: auto;
+	width: 30%;
+}
+
+.gridtext {
+	text-align: left;
+}
+
+.gridimg {
+	width: 100%
+}
+
+.storyboard{
+	width: 70%;
+}
+
+.interfaceImg {
+	width: 70%;
+	transform: rotate(270deg);
+}

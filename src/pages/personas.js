@@ -9,7 +9,7 @@ const Personas = () => {
                     Personas and Storyboarding
                 </h1>
             </div>
-            <p>
+            <p style={{margin:'2rem',}}>
                 About the project: For this project, we had to choose an interface that was easily available to the public, observe people using it, and interview at least three users. Based on these observations and interviews, we had to create empathy maps for two representative users and a storyboard describing a scenario for one of these users. 
             </p> 
             <div className="imageSection">
@@ -28,7 +28,7 @@ const Personas = () => {
                     they have the alternative of logging into the connected computer
                     and displaying content from that computer.
                 </p>
-                <img className="interfaceImg" src="./assets1/interface1.jpg"/>
+                <img className="interfaceImg" src="./assets1/interface1.jpg" alt="Scan of a drawing of the interface" style={{width:'25rem',}}/>
                 <p>
                     The image below shows the basic settings or default window of 
                     the control panel of the interface. A menu on the right allows 
@@ -44,7 +44,7 @@ const Personas = () => {
                     intuitive and used in a standard context/manner (like the lights
                     and mute icons).
                 </p>
-                <img className="interfaceImg" src="./assets1/interface2.jpg"/>
+                <img className="interfaceImg" src="./assets1/interface2.jpg" alt="Scan of a drawing of the interface" style={{width:'25rem',}}/>
                 <p>
                     This image shows the display controls once a connected device
                     has been chosen. Salient features here are the colour-coded on 
@@ -54,7 +54,7 @@ const Personas = () => {
                     display" is slightly ambiguous and confusing and it is not
                     immediately clear to the user what that button does. 
                 </p>
-                <img className="interfaceImg" src="./assets1/interface3.jpg"/>
+                <img className="interfaceImg" src="./assets1/interface3.jpg" alt="Scan of a drawing of the interface" style={{width:'25rem',}}/>
             </div>
             <div className = "textSection">
                 <h2>
@@ -98,7 +98,7 @@ const Personas = () => {
                 <h2>
                     Summary of interview responses
                 </h2>
-                <h4 style="margin: 0%;">
+                <h4 style={{margin:'0%',}}>
                     Pseudonyms have been used out of respect for the privacy of 
                     respondents. 
                 </h4>
@@ -218,8 +218,8 @@ const Personas = () => {
                     Personas and Empathy Maps
                 </h2>
                 <div className = "personas">
-                    <img className="personaScan" src="./assets1/Sam.jpg"/>
-                    <img className="personaScan" src="./assets1/Wendy.jpg"/>
+                    <img className="personaScan" src="./assets1/Sam.jpg" alt="Scan of an empathy map for Scrambling Sam"/>
+                    <img className="personaScan" src="./assets1/Wendy.jpg" alt="Scan of an empathy map for Tech-Savvy Tim"/>
                     <p className="personaDescr">
                         Scrambling Sam is a young lady who's not comfortable with 
                         technology. Today, she's rushing to finish teaching all the 
@@ -262,7 +262,7 @@ const Personas = () => {
                     morning she faced issues with the interface while teaching some
                     important material. 
                 </p>
-                <img className="storyboard" src="./assets1/Storyboard.jpg"/>
+                <img className="storyboard" src="./assets1/Storyboard.jpg" alt="Scan of a storyboard for Scrambling Sam"/>
             </div>
 
         </div>
