@@ -26,7 +26,7 @@ const Responsive=() => {
                     "Bagels". There are multiple other issues outlined below. <br/>
                 </p>
                 <div className="gridcontainer4">
-                    <img className="gridimg" src="./assets/screenshot1.jpg" alt="An annotated screenshot of the website, highlighting some of the usability issues"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/screenshot1.jpg"} alt="An annotated screenshot of the website, highlighting some of the usability issues"/>
                     <div className="mainListContainer">
                         <ul>
                         <li> 
@@ -70,7 +70,7 @@ const Responsive=() => {
                     shows the bagel options available at Bagel Gourmet.
                 </p>
                 <div className="gridcontainer2">
-                    <img className="gridimg" src="./assets/screenshot2.jpg" alt="An annotated screenshot of the website, highlighting some of the usability issues"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/screenshot2.jpg"} alt="An annotated screenshot of the website, highlighting some of the usability issues"/>
                     <div className='mainListContainer'>
                         <ul>
                         <li>
@@ -133,8 +133,8 @@ const Responsive=() => {
                         my redesign. The redesigned page's accessibility report is summarized
                         in the image below.
                     </p>
-                    <img src="./assets/original_accessibility.png" width="50%" alt="The WebAim WAVE acessibility report for the original webpage"/>
-                    <img src="./assets/redesigned_accessibility.png" width="50%" alt="The WebAim WAVE accessibility report for the redesigned webpage"/>
+                    <img src={process.env.PUBLIC_URL + "/assets3/original_accessibility.png"} width="50%" alt="The WebAim WAVE acessibility report for the original webpage"/>
+                    <img src={process.env.PUBLIC_URL + "/assets3/redesigned_accessibility.png"} width="50%" alt="The WebAim WAVE accessibility report for the redesigned webpage"/>
                 </div>
             </div>
             <div className='imageSection'>
@@ -153,7 +153,7 @@ const Responsive=() => {
                     website would address. 
                 </p>
                 <div className='gridcontainer2'>
-                    <img className="gridimg" src="./assets/annotated_lofi.jpg" alt="An annotated low-fidelity wireframe of the laptop website"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/annotated_lofi.jpg"} alt="An annotated low-fidelity wireframe of the laptop website"/>
                     <div className='mainListContainer'>
                         <ul>
                         <li>
@@ -207,18 +207,18 @@ const Responsive=() => {
                     Enclosed below are additional wireframes for the laptop website.
                 </p>
                 <div className="gridcontainer4">
-                    <img className="gridimg" src="./assets/Laptop1.png" alt="Laptop wireframe 1"/>
-                    <img className="gridimg" src="./assets/Laptop2.png" alt="Laptop wireframe 2"/>
-                    <img className="gridimg" src="./assets/Laptop3.png" alt="Laptop wireframe 3"/>
-                    <img className="gridimg" src="./assets/Laptop4.png" alt="Laptop wireframe 4"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/Laptop1.png"} alt="Laptop wireframe 1"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/Laptop2.png"} alt="Laptop wireframe 2"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/Laptop3.png"} alt="Laptop wireframe 3"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/Laptop4.png"} alt="Laptop wireframe 4"/>
                 </div>
                 <p>
                     Enclosed below are wireframes for the tablet and phone 
                     websites respectively.
                 </p>
                 <div className="gridcontainer2">
-                    <img className="screenshot" src="./assets/Tablet.png" alt="Tablet wireframe"/>
-                    <img className="screenshot" src="./assets/Phone.png" alt="Phone wireframe"/>
+                    <img className="screenshot" src={process.env.PUBLIC_URL + "/assets3/Tablet.png"} alt="Tablet wireframe"/>
+                    <img className="screenshot" src={process.env.PUBLIC_URL + "/assets3/Phone.png"} alt="Phone wireframe"/>
                 </div>
             </div>
             <div className='imageSection'>
@@ -226,7 +226,7 @@ const Responsive=() => {
                     Visual Redesign - Visual Style Guide
                 </h2>
                 <div className='gridcontainer2'>
-                    <img className="miniscreenshot" src="./assets/Visual Design Style Guide.png" alt="Visual design style guide"/>
+                    <img className="miniscreenshot" src={process.env.PUBLIC_URL + "/assets3/Visual Design Style Guide.png"} alt="Visual design style guide"/>
                     <p>
                     My website had relatively few interactive elements, so my visual
                     style guide was fairly simple. I created a colour scheme based 
@@ -252,7 +252,7 @@ const Responsive=() => {
                     by the low-fidelity wireframe.
                 </p>
                 <div className='gridcontainer2'>
-                    <img className="gridimg" src="./assets/annotated_hifi.jpg"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/annotated_hifi.jpg"}/>
                     <div className='mainListContainer'>
                         <ul>
                         <li>
@@ -305,9 +305,9 @@ const Responsive=() => {
                     on different devices (laptops, tablets, and phones).
                 </p>
                 <div className="gridcontainer3">
-                    <img className="gridimg" src="./assets/Laptop_Prototype.png" alt="High-fidelity laptop prototype"/>
-                    <img className="gridimg" src="./assets/Tablet_Prototype.png" alt="High-fidelity tablet prototype"/>
-                    <img className="gridimg" src="./assets/Phone_Prototype.png" alt="High-fidelity phone prototype"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/Laptop_Prototype.png"} alt="High-fidelity laptop prototype"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/Tablet_Prototype.png"} alt="High-fidelity tablet prototype"/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/Phone_Prototype.png"} alt="High-fidelity phone prototype"/>
                 </div>
             </div>
             <div className='imageSection'>
