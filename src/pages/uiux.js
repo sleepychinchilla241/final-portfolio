@@ -96,7 +96,7 @@ return (
     <div style={{display:'flex', justifyContent:'center', flexDirection: 'column', alignItems:'center',}}>
         <linkGrid style={{display:'grid', gridTemplateColumns:'auto auto', gridGap:'1rem 5rem', marginBottom:'2rem', justifyContent:'center',}}>
             <Button sx={{backgroundColor: '#e8e8e8', display:'flex', flexDirection:"column", alignItems:'center', alignText:'center', width:'30rem', padding:'2rem', fontFamily:'Andale Mono', color:'black',}} onClick={handleChangePersonas}>
-                <h3>Personas and Storyboarding</h3><br/>
+                <h3>Personas and Storyboarding</h3>
                 <p>Exploring the mind and mentality of the user through observations and interviews.</p>
             </Button>
             <Button sx={{backgroundColor: '#e8e8e8', display:'flex', flexDirection:"column", alignItems:'center', alignText:'center', width:'30rem', padding:'2rem', fontFamily:'Andale Mono', color:'black',}} onClick={handleChangeResponsive}>
@@ -104,7 +104,7 @@ return (
                 <p>Redesigning an existing website to be more user-friendly, accessible, and usable across platforms</p>
             </Button>
             <Button sx={{backgroundColor: '#e8e8e8', display:'flex', flexDirection:"column", alignItems:'center', alignText:'center', width:'30rem', padding:'2rem', fontFamily:'Andale Mono', color:'black',}} onClick={handleChangeWebDev}>
-                <h3>React</h3><br/>
+                <h3>React</h3>
                 <p>Developing an interactive website using React</p>
             </Button>
             <Button sx={{backgroundColor: '#e8e8e8', display:'flex', flexDirection:"column", alignItems:'center', alignText:'center', width:'30rem', padding:'2rem', fontFamily:'Andale Mono', color:'black',}} onClick={handleChangeDevelopment}>

@@ -79,7 +79,7 @@ h3 {
 
 .gridcontainer4 {
 	display: grid;
-	gap: 3%;
+	gap: 3rem;
 	margin: 0% 1.5% 1.5% 1.5%;
 	grid-template-columns: auto auto auto auto;
 	align-items: center;
@@ -87,7 +87,7 @@ h3 {
 
 .gridcontainer3 {
 	display: grid;
-	gap: 3%;
+	gap: 3rem;
 	margin: 0% 1.5% 1.5% 1.5%;
 	grid-template-columns: auto auto auto;
 	align-items: center;
@@ -95,7 +95,7 @@ h3 {
 
 .gridcontainer2 {
 	display: grid;
-	gap: 3%;
+	gap: 3rem;
 	margin: 0% 1.5% 1.5% 1.5%;
 	grid-template-columns: auto auto;
 	align-items: center;

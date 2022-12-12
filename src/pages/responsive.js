@@ -87,7 +87,7 @@ const Responsive=() => {
                     <p>
                         I also used the WebAim WAVE tool to evaluate the accessibility of 
                         the original webpage. Several issues were identified by the tool, 
-                        which are summarized in the image below. In addition to having a
+                        which are summarized in the following image. In addition to having a
                         missing page title, no language setting, and multiple instances of
                         empty headings and images with no alt text, there were also many
                         contrast errors, which I had noticed too. Further, there were
@@ -96,15 +96,15 @@ const Responsive=() => {
                         because they were attached to images that did not have captions
                         associated with them.
                     </p>
+                    <img src={process.env.PUBLIC_URL + "/assets3/original_accessibility.png"} width="50%" alt="The WebAim WAVE acessibility report for the original webpage"/>
                     <p>
                         I tried to address the issues raised in the original page's 
                         accessibility report by improving the contrast in text, avoiding
                         empty headings, etc. I also tested my final webpage using the tool
                         to ensure I didn't create any additional accessibility issues in
                         my redesign. The redesigned page's accessibility report is summarized
-                        in the image below.
+                        in the following image.
                     </p>
-                    <img src={process.env.PUBLIC_URL + "/assets3/original_accessibility.png"} width="50%" alt="The WebAim WAVE acessibility report for the original webpage"/>
                     <img src={process.env.PUBLIC_URL + "/assets3/redesigned_accessibility.png"} width="50%" alt="The WebAim WAVE accessibility report for the redesigned webpage"/>
                 </div>
             </div>
@@ -216,7 +216,7 @@ const Responsive=() => {
                     by the low-fidelity wireframe.
                 </p>
                 <div className='gridcontainer2'>
-                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/annotated_hifi.jpg"}/>
+                    <img className="gridimg" src={process.env.PUBLIC_URL + "/assets3/annotated_hifi.jpg"} alt="Wireframe of the redesigned website"/>
                     <div className='mainListContainer'>
                         <ul>
                         <li>
@@ -280,9 +280,7 @@ const Responsive=() => {
                 </h2>
                 <p>
                     Based on my prototypes, I redesigned the Bagel Gourmet menu 
-                    webpage. You can compare the <a href="http://bagelgourmetcafe.com/menu.html">original website</a> 
-                    and the <a href="https://sleepychinchilla241.github.io/redesigned/">redesigned website</a> 
-                    by clicking on their respective links.
+                    webpage. You can compare the <a href="http://bagelgourmetcafe.com/menu.html">original website</a> and the <a href="https://sleepychinchilla241.github.io/redesigned/">redesigned website</a> by clicking on their respective links.
                 </p>
             </div>
         </div>
