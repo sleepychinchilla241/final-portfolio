@@ -105,21 +105,21 @@ const Personas = () => {
                 <h3>
                     &rarr; Tech-Savvy Tim
                 </h3>
+                <ul>
+                    <li>
+                        Works with Brown's Office of Information Technology (OIT). 
+                    </li>
+                    <li>
+                        Usually interacts with the interface to set it up for professors to use in classes. Has been interacting with the setup for a little over a year, and is now quite familiar with it. Started out not knowing anything about the setup or AirMedia, and was trained by senior OIT staff in the use of the interface. 
+                    </li>
+                    <li>
+                        Despite being overwhelmed by the setup initially, Tim feels like he has gotten more comfortable with the device and all its features from using it on a daily basis and experimenting with it.
+                    </li>
+                    <li>
+                        The device still manages to stump him on occasion with a strange error or issue, especially since it does not have a user manual or guide, but he has a good idea of how to troubleshoot now. Occasionally feels stressed and overwhelmed when trying to troubleshoot the system for a professor while working against the clock.
+                    </li>
+                </ul>
                 <p className="userInterviewDescr">
-                    Works with Brown's Office of Information Technology (OIT). <br/>
-                    Usually interacts with the interface to set it up for professors to use in classes. Has been interacting 
-                    with the setup for a little over a year, and is now quite 
-                    familiar with it. Started out not knowing anything about the setup or AirMedia, and was trained by senior OIT staff
-                    in the use of the interface. <br/>
-                    Despite being overwhelmed by the setup initially, Tim feels like he has gotten more comfortable
-                    with the device and all its features from using it on a daily 
-                    basis and experimenting with it. <br/>
-                    The device still manages to stump him on occasion with a strange
-                    error or issue, especially since it does not have a user manual
-                    or guide, but he has a good idea of how to troubleshoot now. 
-                    Occasionally feels stressed and overwhelmed 
-                    when trying to troubleshoot the system for a professor while 
-                    working against the clock. <br/> <br/>
                     From my observations, Tim appeared to be methodical and 
                     following a process when working with the interface to set it up
                     for the professor, barely looking up from what he was doing 
@@ -129,22 +129,27 @@ const Personas = () => {
                 <h3>
                     &rarr; Professor P
                 </h3>
+                <ul>
+                    <li>
+                        Teaches a course in life sciences, only works with computers as educational tools. 
+                    </li>
+                    <li>
+                        Primary goal in using the device is to enable classes to run smoothly and allow students to see material projected onto a larger screen. 
+                    </li>
+                    <li>
+                        Uses the clicker and pointer to make it easier to walk while talking and to interact with and watch students during the lecture. 
+                    </li>
+                    <li>
+                        Was familiar with connecting to the interface and presenting using it, and was aware of an additional feature that allows presenters to annotate their presentations using a stylus provided with the interface.
+                    </li>
+                    <li>
+                        Learnt to use these features within a few minutes, found most of this intuitive and was used to interacting with new technology and exploring its uses. 
+                    </li>
+                    <li>
+                        Reported a mostly frictionless user experience, but acknowledged that it could be overwhelming to a first-time user or someone less tech-savvy.
+                    </li>
+                </ul>
                 <p className="userInterviewDescr">
-                    Teaches a course in life sciences, only works with computers as educational tools. <br/>
-                    Primary goal in using the device is to enable classes to run smoothly and 
-                    allow students to see material projected onto a larger screen. <br/>
-                    Uses the clicker and pointer to make it easier to walk while talking and to interact with and
-                    watch students during the lecture. <br/>
-                    Was familiar with connecting to the interface and presenting using it, and
-                    was aware of an additional feature that allows presenters to 
-                    annotate their presentations using a stylus provided with the 
-                    interface. <br/>
-                    Learnt to use these features within a 
-                    few minutes, found most of this intuitive and was
-                    used to interacting with new technology and exploring its uses. <br/>
-                    Reported a mostly frictionless user 
-                    experience, but acknowledged that it could be overwhelming to a 
-                    first-time user or someone less tech-savvy. <br/> <br/>
                     From my observations, Professor P was also methodical and 
                     appeared to be following some set of instructions on his screen 
                     when connecting his device to the interface. He connected to the
@@ -158,23 +163,24 @@ const Personas = () => {
                 <h3>
                     &rarr; Professor G
                 </h3>
+                <ul>
+                    <li>
+                        Teaches a course in a non-CS discipline. 
+                    </li>
+                    <li>
+                        Used the interface primarly to present content for classes, and reported familiarity with only the basic features of the interface. 
+                    </li>
+                    <li>
+                        Overall impression of the interface was that it worked correctly, found it easy to use for his purposes and said he learnt how to use it in a span of minutes because of how intuitive it was. 
+                    </li>
+                    <li>
+                        Also reported a problem with people changing settings on the device and finding it difficult to return them to his preferred settings. 
+                    </li>
+                    <li>
+                        Mentioned needing someone from OIT to come reset the system for him before he can use it, but believed that this was not an issue with the interface as much as it was an issue with the maintenance and administration of the auditorium and the interface. 
+                    </li>
+                </ul>
                 <p className="userInterviewDescr">
-                    Teaches a course in a non-CS discipline. <br/>
-                    Used the interface primarly to present content 
-                    for classes, and reported familiarity with only the basic 
-                    features of the interface. <br/> 
-                    Overall impression of the 
-                    interface was that it worked correctly, found it 
-                    easy to use for his purposes and said he learnt how to use it in
-                    a span of minutes because of how intuitive it was. <br/>
-                    Also reported a problem with people changing settings on the 
-                    device and finding it difficult to return them to his preferred
-                    settings. <br/>
-                    Mentioned needing someone from 
-                    OIT to come reset the system for him before he can use it, but
-                    believed that this was not an issue with the interface as much
-                    as it was an issue with the maintenance and administration of 
-                    the auditorium and the interface. <br/><br/>
                     Professor G appeared to have a smooth experience using the
                     interface during class, and did not have to stop the 
                     presentation at any point to adjust the settings. He did not
@@ -184,17 +190,18 @@ const Personas = () => {
                 <h3>
                     &rarr; Talented Tiffany
                 </h3>
+                <ul>
+                    <li>
+                        A student and a member of a performing arts group that often practices in the auditorium. 
+                    </li>
+                    <li>
+                        Was still a little unfamiliar with the interface and faced some issues connecting to it. Understood that she needed to connect her laptop using the cables provided with the interface, but had trouble working with the audio settings and had to ask her friends to help. 
+                    </li>
+                    <li>
+                        Found it easy to connect to the system but wasn't sure how its volume controls interacted with those on her laptop, and but felt more comfortable over time.
+                    </li>
+                </ul>
                 <p className="userInterviewDescr">
-                    A student and a member of a performing arts
-                    group that often practices in the auditorium. <br/> 
-                    Was still a little unfamiliar with the interface and faced some issues 
-                    connecting to it. Understood that she needed to 
-                    connect her laptop using the cables provided with the interface,
-                    but had trouble working with the audio settings and had to ask 
-                    her friends to help. 
-                    <br/> Found it easy to connect to the system
-                    but wasn't sure how its volume controls interacted with those on
-                    her laptop, and but felt more comfortable over time. <br/><br/>
                     Tiffany did indeed take some time getting connected to the 
                     system, and frequently looked at the projector screen and the 
                     projector itself after doing something on her laptop or the 
