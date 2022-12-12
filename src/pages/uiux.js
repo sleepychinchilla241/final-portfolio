@@ -99,13 +99,13 @@ return (
                 <h3>Personas and Storyboarding</h3><br/>
                 <p>Exploring the mind and mentality of the user through observations and interviews.</p>
             </Button>
-            <Button sx={{backgroundColor: '#e8e8e8', display:'flex', flexDirection:"column", alignItems:'center', alignText:'center', width:'30rem', padding:'2rem', fontFamily:'Andale Mono', color:'black',}} onClick={handleChangeWebDev}>
-                <h3>WebDev</h3><br/>
-                <p>Developing an interactive website using HTML, CSS, and JavaScript</p>
-            </Button>
             <Button sx={{backgroundColor: '#e8e8e8', display:'flex', flexDirection:"column", alignItems:'center', alignText:'center', width:'30rem', padding:'2rem', fontFamily:'Andale Mono', color:'black',}} onClick={handleChangeResponsive}>
                 <h3>Responsive Redesign</h3>
                 <p>Redesigning an existing website to be more user-friendly, accessible, and usable across platforms</p>
+            </Button>
+            <Button sx={{backgroundColor: '#e8e8e8', display:'flex', flexDirection:"column", alignItems:'center', alignText:'center', width:'30rem', padding:'2rem', fontFamily:'Andale Mono', color:'black',}} onClick={handleChangeWebDev}>
+                <h3>React</h3><br/>
+                <p>Developing an interactive website using React</p>
             </Button>
             <Button sx={{backgroundColor: '#e8e8e8', display:'flex', flexDirection:"column", alignItems:'center', alignText:'center', width:'30rem', padding:'2rem', fontFamily:'Andale Mono', color:'black',}} onClick={handleChangeDevelopment}>
                 <h3>Development</h3>
