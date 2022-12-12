@@ -106,22 +106,18 @@ const Personas = () => {
                     &rarr; Tech-Savvy Tim
                 </h3>
                 <p className="userInterviewDescr">
-                    Tech-Savvy Tim works with Brown's Office of Information Technology 
-                    (OIT). He said he usually interacts with the interface to set it
-                    up for professors to use in classes. He has been interacting 
+                    Works with Brown's Office of Information Technology (OIT). <br/>
+                    Usually interacts with the interface to set it up for professors to use in classes. Has been interacting 
                     with the setup for a little over a year, and is now quite 
-                    familiar with it. He said he started out not knowing anything 
-                    about the setup or AirMedia, and was trained by senior OIT staff
-                    in the use of the interface. Despite being overwhelmed by the 
-                    setup initially, Tim feels like he has gotten more comfortable
+                    familiar with it. Started out not knowing anything about the setup or AirMedia, and was trained by senior OIT staff
+                    in the use of the interface. <br/>
+                    Despite being overwhelmed by the setup initially, Tim feels like he has gotten more comfortable
                     with the device and all its features from using it on a daily 
-                    basis and experimenting with the system. He did acknowledge that 
-                    the device still manages to stump him on occasion with a strange
+                    basis and experimenting with it. <br/>
+                    The device still manages to stump him on occasion with a strange
                     error or issue, especially since it does not have a user manual
-                    or guide, but he has a good idea of how to troubleshoot now.
-                    He reported that the sometimes the only solution is to do a 
-                    back-end reset or to connect wirelessly using AirMedia.  
-                    Tim did mention occasionally feeling stressed and overwhelmed 
+                    or guide, but he has a good idea of how to troubleshoot now. 
+                    Occasionally feels stressed and overwhelmed 
                     when trying to troubleshoot the system for a professor while 
                     working against the clock. <br/> <br/>
                     From my observations, Tim appeared to be methodical and 
@@ -134,23 +130,19 @@ const Personas = () => {
                     &rarr; Professor P
                 </h3>
                 <p className="userInterviewDescr">
-                    Professor P is teaches a course in life sciences, and so only 
-                    works with computers as educational tools. His primary goal 
-                    in using the device is to enable classes to run smoothly and 
-                    allow students to see material projected onto a larger screen. 
-                    He said his intention behind using the clicker and pointer was 
-                    to make it easier to walk while talking and to interact with and
-                    watch students during the lecture, which would be much harder if 
-                    he stayed near the computer interface. Professor P was familiar
-                    with connecting to the interface and presenting using it, and
+                    Teaches a course in life sciences, only works with computers as educational tools. <br/>
+                    Primary goal in using the device is to enable classes to run smoothly and 
+                    allow students to see material projected onto a larger screen. <br/>
+                    Uses the clicker and pointer to make it easier to walk while talking and to interact with and
+                    watch students during the lecture. <br/>
+                    Was familiar with connecting to the interface and presenting using it, and
                     was aware of an additional feature that allows presenters to 
                     annotate their presentations using a stylus provided with the 
-                    interface. He reported learning to use these features within a 
-                    few minutes, and that most of this was intuitive and that he was
-                    used to interacting with new technology and exploring its uses. 
-                    Professor P regarded the interface as a tool to be used in the 
-                    background that should not interfere with the message of what he
-                    was teaching, and reported a mostly frictionless user 
+                    interface. <br/>
+                    Learnt to use these features within a 
+                    few minutes, found most of this intuitive and was
+                    used to interacting with new technology and exploring its uses. <br/>
+                    Reported a mostly frictionless user 
                     experience, but acknowledged that it could be overwhelming to a 
                     first-time user or someone less tech-savvy. <br/> <br/>
                     From my observations, Professor P was also methodical and 
@@ -167,16 +159,18 @@ const Personas = () => {
                     &rarr; Professor G
                 </h3>
                 <p className="userInterviewDescr">
-                    Professor G teaches also teaches a course in a non-CS discipline.
-                    Professor G also used the interface primarly to present content 
+                    Teaches a course in a non-CS discipline. <br/>
+                    Used the interface primarly to present content 
                     for classes, and reported familiarity with only the basic 
-                    features of the interface. His overall impression of the 
-                    interface was that it worked correctly, and said he found it 
-                    easy to use for his purposes and that he learnt how to use it in
-                    a span of minutes because of how intuitive it was. However, he 
-                    did also report a problem with people changing settings on the 
+                    features of the interface. <br/> 
+                    Overall impression of the 
+                    interface was that it worked correctly, found it 
+                    easy to use for his purposes and said he learnt how to use it in
+                    a span of minutes because of how intuitive it was. <br/>
+                    Also reported a problem with people changing settings on the 
                     device and finding it difficult to return them to his preferred
-                    settings. Professor G also mentioned that he needs someone from 
+                    settings. <br/>
+                    Mentioned needing someone from 
                     OIT to come reset the system for him before he can use it, but
                     believed that this was not an issue with the interface as much
                     as it was an issue with the maintenance and administration of 
@@ -191,19 +185,16 @@ const Personas = () => {
                     &rarr; Talented Tiffany
                 </h3>
                 <p className="userInterviewDescr">
-                    Talented Tiffany is a student and a member of a performing arts
-                    group that often practices in the auditorium. Various members of
-                    the group have needed to connect to the multimedia interface in
-                    the past to play music or a video for the group during 
-                    practices. Tiffany, being a new member of the group, was still a
-                    little unfamiliar with the interface and faced some issues 
-                    connecting to it. While she understood that she needed to 
+                    A student and a member of a performing arts
+                    group that often practices in the auditorium. <br/> 
+                    Was still a little unfamiliar with the interface and faced some issues 
+                    connecting to it. Understood that she needed to 
                     connect her laptop using the cables provided with the interface,
-                    she had trouble working with the audio settings and had to ask 
-                    her friends to help. She found it easy to connect to the system
+                    but had trouble working with the audio settings and had to ask 
+                    her friends to help. 
+                    <br/> Found it easy to connect to the system
                     but wasn't sure how its volume controls interacted with those on
-                    her laptop, and but felt more comfortable using the system after
-                    she understood what was going on. <br/><br/>
+                    her laptop, and but felt more comfortable over time. <br/><br/>
                     Tiffany did indeed take some time getting connected to the 
                     system, and frequently looked at the projector screen and the 
                     projector itself after doing something on her laptop or the 
