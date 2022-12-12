@@ -30,32 +30,20 @@ const Responsive=() => {
                     <div className="mainListContainer">
                         <ul>
                         <li> 
-                                The logo used here is not the same as the logo seen at 
-                                Bagel Gourmet stores in Providence. Further, it is 
-                                difficult to read due to poor text contrast. 
+                                Poor text contrast on logo, different from store logo
                             </li>
                             <br/>
                             <li> 
-                                There is a lot of unused white space on the website, 
-                                which could be better used by changing the layout or 
-                                increasing the font size. 
+                                Lot of unused white space 
                             </li>
                             <br/>
                             <li> 
-                                The font size and formatting is mostly uniform 
-                                throughout the section shown here. The website mostly 
-                                uses font colour and bold or italicized text to 
-                                differentiate blocks of text, though this is not 
-                                standardized throughout either. This makes it difficult 
-                                to establish a visual heirarchy. The arrangement of text 
-                                is awkward, with irregular spacing and indentation, with 
-                                irregular spacing between the menu item and its price, 
-                                with the price sometimes being on a different line. 
+                                Non-standardized text formatting, hard to establish visual hierarchy. 
+                                Irregular spacing between menu items and price, irregular indentation.
                             </li>
                             <br/>
                             <li> 
-                                The navigation panel on the left is also slightly 
-                                misleading. The "Shopping cart" option may lead a user 
+                                Misleading navigation panel - the "Shopping cart" option may lead a user 
                                 to think that they can add menu items to their shopping 
                                 cart by clicking on them on this page, and that this 
                                 option would simply show them the items they have 
@@ -74,40 +62,23 @@ const Responsive=() => {
                     <div className='mainListContainer'>
                         <ul>
                         <li>
-                                In addition to the issues highlighted above, some other 
-                                new issues become apparent in this section. The layout 
-                                suddenly changes to a two-column layout instead of the 
-                                one-column layout present further up on the website.
+                                Sudden change to a two-column layout instead of the 
+                                one-column layout from before
                             </li>
                             <br/>
                             <li>
-                                There are also large blocks of text, especially when 
-                                listing the bagel offerings, which may lead to the user 
-                                simply skimming the block or ignoring it altogether.
+                                Large blocks of text that are difficult to read
                             </li>
                             <br/>
                             <li>
-                                The prices in this section are also missing some digits. 
-                                All items that cost less than a dollar do not have the 
-                                leading zero, which may be confusing to customers at 
-                                first glance and may lead to their misreading or 
-                                misinterpreting the price.
+                                Missing digits in prices, which can be misleading
                             </li>
                             <li>
-                                Another issue with this website, which isn't apparent 
-                                from these screenshots, is the fact that the entire menu
-                                is presented on the same page, which can make it 
-                                difficult for a user to find the section they are 
-                                interested in.
+                                Presentation of the entire menu in one page, making it difficult to locate a specific item
                             </li>
                             <li>
-                                The menu items were also laid out in no particular order
-                                within their respective sections, which could also be 
-                                confusing to users who might expect more expensive items
-                                to occur towards the end of the section. This is also 
-                                not apparent from the two screenshots provided, but is 
-                                more noticeable upon scrolling through the entire 
-                                webpage.
+                                No clear order in listing of menu items within sections, 
+                                instead of listing items in increasing order of price (for example)
                             </li>
                         </ul>
                     </div>
@@ -157,9 +128,8 @@ const Responsive=() => {
                     <div className='mainListContainer'>
                         <ul>
                         <li>
-                                The most significant change invovled breaking up 
-                                the menu into sections that could be accessed using a 
-                                tab bar. This makes it somewhat easier for the user to 
+                                Breaking up the menu into sections that could be accessed using a 
+                                tab bar. Making it easier for the user to 
                                 locate items they are interested in, and also quickly 
                                 gives the user an idea of the variety of foods offered.
                             </li>
@@ -167,38 +137,32 @@ const Responsive=() => {
                             <li>
                                 Changing the "Shopping cart" option to "Order online" 
                                 also ensured the user's conceptual model of the website
-                                was closer to the actual model. "Order online" is more
-                                likely to signal to the customer that they cannot order
-                                items from this webpage and that they should navigate
+                                was closer to the actual model to signal to the customer that they should navigate
                                 to a different page to order online. 
                             </li>
                             <br/>
                             <li>
-                                Another major change was bringing the "Bagels" to the 
-                                top of the menu, which made sense since the restaurant 
+                                Bringing the "Bagels" to the top of the menu, since the restaurant 
                                 specializes in making bagels. 
                             </li>
                             <br/>
                             <li>
-                                I also broke up the big block of text listing the bagel
+                                Breaking up the big block of text listing the bagel
                                 varieties into smaller itemized lists, with each variety
                                 on its own line. Users are less likely to skip or skim
                                 over this section because of the list format.
                             </li>
                             <br/>
                             <li>
-                                I also played with font sizes to demonstrate hierarchy 
+                                Using font sizes to demonstrate hierarchy 
                                 in the menu. I also removed the pictures from the menu 
                                 on the original website, so the menu items came directly
-                                under their section header, providing a degree of visual
-                                continuity within sections. 
+                                under their section header, providing visual continuity within sections. 
                             </li>
                             <br/>
                             <li>
-                                Lastly, I made sure there were no missing digits, so all 
-                                prices were displayed in the same format, making it less
-                                likely that a customer would misread or misinterpret the
-                                price. 
+                                Fixing missing digits, so all 
+                                prices were displayed in the same format, reducing the likelihood of misinterpretations
                             </li>
                         </ul>
                     </div>
@@ -276,7 +240,7 @@ const Responsive=() => {
                                         </li>
                                         <li>
                                             Menu items are bold and in a slightly 
-                                            smaller font thant the section header, 
+                                            smaller font than the section header, 
                                             while additional information about the 
                                             menu item is in normal font that is of a 
                                             smaller size than the rest.
