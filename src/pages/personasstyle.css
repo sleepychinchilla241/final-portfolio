@@ -100,3 +100,6 @@ h3 {
 .interfaceImg {
 	transform: rotate(270deg);
 }
+ul {
+	margin: 1.5%;
+}
